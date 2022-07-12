@@ -28,6 +28,6 @@ jobs:
     - name: Package Publication
       run: |
         $path = "Dictify\bin\Release"
-        $FileName = Get-ChildItem -Path $path -Recurse -Name -Filter "Dictify.*"
+        $FileName = Get-ChildItem -Path $path -Name -Filter "Dictify.*"
         nuget push "$path\$FileName" -source "nuget.org"
         

@@ -28,5 +28,5 @@ jobs:
     - name: Package Publication
       run: |
         $path = "Dictify\bin\Release"
-        $FileName = Get-ChildItem -Path $path -Recurse -Name -Filter "Dictify.*"
+        $FileName = Get-ChildItem -Path $path -Name -Filter "Dictify.*"
         curl -vX PUT -u "EoflaOE:${{ secrets.GH_APIKEY }}" -F package="@$path\$FileName" https://nuget.pkg.github.com/EoflaOE/
