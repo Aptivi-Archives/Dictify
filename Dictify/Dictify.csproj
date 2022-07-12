@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SignAssembly>False</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>EoflaOE</Authors>
+    <Company>EoflaOE and its companies.</Company>
+    <Description>Dictionary API frontend</Description>
+    <Copyright>Copyright (c) 2022 EoflaOE and its companies.</Copyright>
+    <PackageProjectUrl>https://github.com/EoflaOE/Dictify</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EoflaOE/Dictify</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dictionary;api;free;csharp;visualbasic;word;meaning;definition</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageVersion>1.0.0</PackageVersion>
+    <ApplicationIcon>OfficialAppIcon-Dictify.ico</ApplicationIcon>
+    <PackageIcon>OfficialAppIcon-Dictify-512.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="OfficialAppIcon-Dictify.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="OfficialAppIcon-Dictify-512.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
