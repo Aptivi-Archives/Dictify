@@ -25,6 +25,8 @@
 
 using Dictify.Manager;
 using Dictify.Models;
+using System;
+using System.Linq;
 
 namespace Dictify.Demo
 {
