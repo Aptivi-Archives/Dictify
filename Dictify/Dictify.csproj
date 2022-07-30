@@ -7,12 +7,12 @@
     <SignAssembly>False</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>1.0.0.1</Version>
-    <Authors>EoflaOE</Authors>
-    <Company>EoflaOE and its companies.</Company>
+    <Authors>Aptivi</Authors>
+    <Company>Aptivi.</Company>
     <Description>Dictionary API frontend</Description>
-    <Copyright>Copyright (c) 2022 EoflaOE and its companies.</Copyright>
-    <PackageProjectUrl>https://github.com/EoflaOE/Dictify</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/EoflaOE/Dictify</RepositoryUrl>
+    <Copyright>Copyright (c) 2022 Aptivi.</Copyright>
+    <PackageProjectUrl>https://github.com/Aptivi/Dictify</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Aptivi/Dictify</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>dictionary;api;free;csharp;visualbasic;word;meaning;definition</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
