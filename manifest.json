@@ -16,6 +16,114 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Manager.DictionaryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Manager.DictionaryManager.html",
+          "hash": "Xkd3aIbgeU0NYEEBK32QIGTfYk6tOAaOaZr/eU1epKs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Manager.html",
+          "hash": "uyEVenAztxrtQUkkB8Bla124AGRd12ZlieMJDPZc9i0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Models.DictionaryWord.DefinitionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Models.DictionaryWord.DefinitionType.html",
+          "hash": "G6/ZgZEO+NWY2ZnhRLU5dyDa+SfnokOHiztlX+tPDBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Models.DictionaryWord.License.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Models.DictionaryWord.License.html",
+          "hash": "szDjfnXcIjxdFrecpdUUQLSMiHZzPBeV6M+kQ8d8whM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Models.DictionaryWord.Meaning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Models.DictionaryWord.Meaning.html",
+          "hash": "wYAM/5AYaW6Ddqf4gLN3tPfT/HYGe55OfmAb/eFAxbo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Models.DictionaryWord.Phonetic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Models.DictionaryWord.Phonetic.html",
+          "hash": "xhIQ9Y9eBWm/H1AD86YjUO/FzE07iqjgaa7j4AiF9wU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Models.DictionaryWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Models.DictionaryWord.html",
+          "hash": "d9i1glxpJmiyTKOpLxtWxhD/LJ1DXoE2lnrGOKayWm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dictify.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dictify.Models.html",
+          "hash": "CGgxEAgJNbkaEmlP76voto3kqF1IuW/CYRfrtY++mpw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "WGdM00WnxvTkhvYJzfqs4FvyHGrQz6j2sgucO/lLxYQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -33,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "YRmnFoPaOxFl2evu6LXNr5JoBn/n1MdrdBX1LzjfM34="
+          "hash": "RexEpreEeVsI+9ckaGVymww4+WmK/mga0JVtQV9UanY="
         }
       },
       "is_incremental": false,
@@ -55,6 +163,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
