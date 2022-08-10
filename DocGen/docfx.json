@@ -3,7 +3,7 @@
         {
             "src": [
                 {
-                    "files": [ "Dictify/**.vbproj" ],
+                    "files": [ "Dictify/**.csproj" ],
                     "src": ".."
                 }
             ],
