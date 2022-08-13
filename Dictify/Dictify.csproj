@@ -18,15 +18,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageVersion>1.0.0.1</PackageVersion>
-    <ApplicationIcon>OfficialAppIcon-Dictify.ico</ApplicationIcon>
     <PackageIcon>OfficialAppIcon-Dictify-512.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include="OfficialAppIcon-Dictify.ico" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
