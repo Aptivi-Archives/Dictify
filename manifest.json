@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Manager.DictionaryManager.html",
-          "hash": "Xkd3aIbgeU0NYEEBK32QIGTfYk6tOAaOaZr/eU1epKs="
+          "hash": "Qz3aKplopyBetGNms5Rv1M58Qod9eiLIBgihmeuq9ug="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.DefinitionType.html",
-          "hash": "G6/ZgZEO+NWY2ZnhRLU5dyDa+SfnokOHiztlX+tPDBw="
+          "hash": "0461f47axOOGQJe07bFsABQocb9XYuejHvaZ22ifomg="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.License.html",
-          "hash": "szDjfnXcIjxdFrecpdUUQLSMiHZzPBeV6M+kQ8d8whM="
+          "hash": "JiO6MzHhbgC+T3rAOIJz59uBPh87P+1mEgu5zi03CXo="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.Meaning.html",
-          "hash": "wYAM/5AYaW6Ddqf4gLN3tPfT/HYGe55OfmAb/eFAxbo="
+          "hash": "X/fFDrUp82FW5mJk+bRNyT6BkGhhbegwrk2knSihrRE="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.Phonetic.html",
-          "hash": "xhIQ9Y9eBWm/H1AD86YjUO/FzE07iqjgaa7j4AiF9wU="
+          "hash": "tXyZbbAlPbdW+b7vVF5MMsTaue1i32oy+4iidhhlyEs="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.html",
-          "hash": "d9i1glxpJmiyTKOpLxtWxhD/LJ1DXoE2lnrGOKayWm4="
+          "hash": "lJ3iVLTomxLbK4tohFjjuHEawr8k7jyAaemS/AfedtA="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EDOoaKV0ftWK/3cWdiDqEAtn6Izl1NNxtAQS6RBqbFs="
+          "hash": "wc3enyE0eM7PEyKBJQY0foIR2EgKvL/6ujnBF/pQHZ0="
         }
       },
       "is_incremental": false,
