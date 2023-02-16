@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;net48</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>False</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <Authors>Aptivi</Authors>
     <Company>Aptivi.</Company>
     <Description>Dictionary API frontend</Description>
@@ -17,7 +17,7 @@
     <PackageTags>dictionary;api;free;csharp;visualbasic;word;meaning;definition</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageVersion>1.0.0.1</PackageVersion>
+    <PackageVersion>1.0.0.2</PackageVersion>
     <PackageIcon>OfficialAppIcon-Dictify-512.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <LangVersion>8.0</LangVersion>
