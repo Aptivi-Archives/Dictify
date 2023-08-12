@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.DefinitionType.html",
-          "hash": "0461f47axOOGQJe07bFsABQocb9XYuejHvaZ22ifomg="
+          "hash": "Xayb0ULDpPJqBxohHaHK6Ok75Tqg45J9fRMJejpt5sY="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.License.html",
-          "hash": "JiO6MzHhbgC+T3rAOIJz59uBPh87P+1mEgu5zi03CXo="
+          "hash": "Z9yX5xPZpr7yiDJwq80ioS7KZkz4Gx3WGIW+/g+cyGE="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.Meaning.html",
-          "hash": "X/fFDrUp82FW5mJk+bRNyT6BkGhhbegwrk2knSihrRE="
+          "hash": "NYosvYhd3ZcbcKpSmwZPJDSJ6D7MKud8ODY5N3tdcF4="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.Phonetic.html",
-          "hash": "tXyZbbAlPbdW+b7vVF5MMsTaue1i32oy+4iidhhlyEs="
+          "hash": "FFQAwmfoSZ+ktZ7UWWMhE8JIqX74pZ3uD83VUh/5Pns="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Dictify.Models.DictionaryWord.html",
-          "hash": "lJ3iVLTomxLbK4tohFjjuHEawr8k7jyAaemS/AfedtA="
+          "hash": "esQPfjkC1fY33wJV09QS/C+87/SUF7HO2MeOPWzReAU="
         }
       },
       "is_incremental": false,
