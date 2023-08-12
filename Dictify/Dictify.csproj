@@ -2,11 +2,10 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>False</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.0.2</Version>
+    <Version>1.1.0</Version>
     <Authors>Aptivi</Authors>
     <Company>Aptivi.</Company>
     <Description>Dictionary API frontend</Description>
@@ -17,7 +16,7 @@
     <PackageTags>dictionary;api;free;csharp;visualbasic;word;meaning;definition</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageVersion>1.0.0.2</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <PackageIcon>OfficialAppIcon-Dictify-512.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <LangVersion>8.0</LangVersion>
@@ -32,7 +31,6 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
   <ItemGroup>

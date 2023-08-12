@@ -59,7 +59,7 @@ namespace Dictify.Manager
                 string WordInfoString = new StreamReader(WordInfoStream).ReadToEnd();
 
                 // Serialize it to DictionaryWord to cache it so that we don't have to download it again
-                DictionaryWord[]? Words = (DictionaryWord[]?)JsonConvert.DeserializeObject(WordInfoString, typeof(DictionaryWord[]));
+                DictionaryWord[] Words = (DictionaryWord[])JsonConvert.DeserializeObject(WordInfoString, typeof(DictionaryWord[]));
                 CachedWords.AddRange(Words);
 
                 // Return the word

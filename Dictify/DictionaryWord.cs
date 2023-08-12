@@ -42,25 +42,25 @@ namespace Dictify.Models
             /// Word definition
             /// </summary>
             [JsonProperty("definition")]
-            public string? Definition { get; set; }
+            public string Definition { get; set; }
 
             /// <summary>
             /// List of synonyms based on the definition
             /// </summary>
             [JsonProperty("synonyms")]
-            public List<string>? Synonyms { get; set; }
+            public List<string> Synonyms { get; set; }
 
             /// <summary>
             /// List of antonyms based on the definition
             /// </summary>
             [JsonProperty("antonyms")]
-            public List<object>? Antonyms { get; set; }
+            public List<object> Antonyms { get; set; }
 
             /// <summary>
             /// Example in sentence
             /// </summary>
             [JsonProperty("example")]
-            public string? Example { get; set; }
+            public string Example { get; set; }
         }
 
         /// <summary>
@@ -72,13 +72,13 @@ namespace Dictify.Models
             /// License name
             /// </summary>
             [JsonProperty("name")]
-            public string? Name { get; set; }
+            public string Name { get; set; }
 
             /// <summary>
             /// License URL
             /// </summary>
             [JsonProperty("url")]
-            public string? Url { get; set; }
+            public string Url { get; set; }
         }
 
         /// <summary>
@@ -90,25 +90,25 @@ namespace Dictify.Models
             /// Part of speech, usually noun, verb, adjective, adverb, interjection, etc.
             /// </summary>
             [JsonProperty("partOfSpeech")]
-            public string? PartOfSpeech { get; set; }
+            public string PartOfSpeech { get; set; }
 
             /// <summary>
             /// List of word definitions. Words usually come with one or more definitions.
             /// </summary>
             [JsonProperty("definitions")]
-            public List<DefinitionType>? Definitions { get; set; }
+            public List<DefinitionType> Definitions { get; set; }
 
             /// <summary>
             /// List of synonyms based on the word meaning
             /// </summary>
             [JsonProperty("synonyms")]
-            public List<string>? Synonyms { get; set; }
+            public List<string> Synonyms { get; set; }
 
             /// <summary>
             /// List of antonyms based on the word meaning
             /// </summary>
             [JsonProperty("antonyms")]
-            public List<string>? Antonyms { get; set; }
+            public List<string> Antonyms { get; set; }
         }
 
         /// <summary>
@@ -120,61 +120,61 @@ namespace Dictify.Models
             /// Phonetic representation of the word
             /// </summary>
             [JsonProperty("text")]
-            public string? Text { get; set; }
+            public string Text { get; set; }
 
             /// <summary>
             /// Link to the pronounciation, usually in MP3 format. Use NAudio (Windows) to play it.
             /// </summary>
             [JsonProperty("audio")]
-            public string? Audio { get; set; }
+            public string Audio { get; set; }
 
             /// <summary>
             /// From where did we get the audio from?
             /// </summary>
             [JsonProperty("sourceUrl")]
-            public string? SourceUrl { get; set; }
+            public string SourceUrl { get; set; }
 
             /// <summary>
             /// License information for the source
             /// </summary>
             [JsonProperty("license")]
-            public License? License { get; set; }
+            public License License { get; set; }
         }
 
         /// <summary>
         /// The actual word
         /// </summary>
         [JsonProperty("word")]
-        public string? Word { get; set; }
+        public string Word { get; set; }
 
         /// <summary>
         /// The base phonetic representation of the word
         /// </summary>
         [JsonProperty("phonetic")]
-        public string? PhoneticWord { get; set; }
+        public string PhoneticWord { get; set; }
 
         /// <summary>
         /// The alternative phonetic representations
         /// </summary>
         [JsonProperty("phonetics")]
-        public List<Phonetic>? Phonetics { get; set; }
+        public List<Phonetic> Phonetics { get; set; }
 
         /// <summary>
         /// Word meanings
         /// </summary>
         [JsonProperty("meanings")]
-        public List<Meaning>? Meanings { get; set; }
+        public List<Meaning> Meanings { get; set; }
 
         /// <summary>
         /// License information
         /// </summary>
         [JsonProperty("license")]
-        public License? LicenseInfo { get; set; }
+        public License LicenseInfo { get; set; }
 
         /// <summary>
         /// List of where we got the word information from
         /// </summary>
         [JsonProperty("sourceUrls")]
-        public List<string>? SourceUrls { get; set; }
+        public List<string> SourceUrls { get; set; }
     }
 }
