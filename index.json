@@ -2,7 +2,7 @@
   "api/Dictify.Manager.DictionaryManager.html": {
     "href": "api/Dictify.Manager.DictionaryManager.html",
     "title": "Class DictionaryManager | Dictify API - Eofla Internals",
-    "keywords": "Class DictionaryManager Dictionary management module Inheritance System.Object DictionaryManager Namespace : Dictify.Manager Assembly : Dictify.dll Syntax public static class DictionaryManager : object Methods GetWordInfo(String) Gets the word information and puts it into an array of dictionary words Declaration public static DictionaryWord[] GetWordInfo(string Word) Parameters Type Name Description System.String Word Returns Type Description DictionaryWord []"
+    "keywords": "Class DictionaryManager Dictionary management module Inheritance System.Object DictionaryManager Namespace : Dictify.Manager Assembly : Dictify.dll Syntax public static class DictionaryManager : object Methods GetWordInfo(String) Gets the word information and puts it into an array of dictionary words Declaration public static DictionaryWord[] GetWordInfo(string Word) Parameters Type Name Description System.String Word Returns Type Description DictionaryWord [] GetWordInfoAsync(String) Gets the word information and puts it into an array of dictionary words Declaration public static async Task<DictionaryWord[]> GetWordInfoAsync(string Word) Parameters Type Name Description System.String Word Returns Type Description Task < DictionaryWord []>"
   },
   "api/Dictify.Manager.html": {
     "href": "api/Dictify.Manager.html",

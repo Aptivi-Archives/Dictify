@@ -26,6 +26,19 @@ references:
   isSpec: "True"
   fullName: Dictify.Manager.DictionaryManager.GetWordInfo
   nameWithType: DictionaryManager.GetWordInfo
+- uid: Dictify.Manager.DictionaryManager.GetWordInfoAsync(System.String)
+  name: GetWordInfoAsync(String)
+  href: api/Dictify.Manager.DictionaryManager.html#Dictify_Manager_DictionaryManager_GetWordInfoAsync_System_String_
+  commentId: M:Dictify.Manager.DictionaryManager.GetWordInfoAsync(System.String)
+  fullName: Dictify.Manager.DictionaryManager.GetWordInfoAsync(System.String)
+  nameWithType: DictionaryManager.GetWordInfoAsync(String)
+- uid: Dictify.Manager.DictionaryManager.GetWordInfoAsync*
+  name: GetWordInfoAsync
+  href: api/Dictify.Manager.DictionaryManager.html#Dictify_Manager_DictionaryManager_GetWordInfoAsync_
+  commentId: Overload:Dictify.Manager.DictionaryManager.GetWordInfoAsync
+  isSpec: "True"
+  fullName: Dictify.Manager.DictionaryManager.GetWordInfoAsync
+  nameWithType: DictionaryManager.GetWordInfoAsync
 - uid: Dictify.Models
   name: Dictify.Models
   href: api/Dictify.Models.html
