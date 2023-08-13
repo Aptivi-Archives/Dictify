@@ -29,6 +29,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Dictify.Manager
 {
@@ -56,6 +57,33 @@ namespace Dictify.Manager
                 HttpResponseMessage Response = DictClient.GetAsync($"https://api.dictionaryapi.dev/api/v2/entries/en/{Word}").Result;
                 Response.EnsureSuccessStatusCode();
                 Stream WordInfoStream = Response.Content.ReadAsStreamAsync().Result;
+                string WordInfoString = new StreamReader(WordInfoStream).ReadToEnd();
+
+                // Serialize it to DictionaryWord to cache it so that we don't have to download it again
+                DictionaryWord[] Words = (DictionaryWord[])JsonConvert.DeserializeObject(WordInfoString, typeof(DictionaryWord[]));
+                CachedWords.AddRange(Words);
+
+                // Return the word
+                return CachedWords.ToArray();
+            }
+        }
+
+        /// <summary>
+        /// Gets the word information and puts it into an array of dictionary words
+        /// </summary>
+        public static async Task<DictionaryWord[]> GetWordInfoAsync(string Word)
+        {
+            if (CachedWords.Any((word) => word.Word == Word))
+            {
+                // We already have a word, so there is no reason to download it again
+                return CachedWords.Where((word) => word.Word == Word).ToArray();
+            }
+            else
+            {
+                // Download the word information
+                HttpResponseMessage Response = await DictClient.GetAsync($"https://api.dictionaryapi.dev/api/v2/entries/en/{Word}");
+                Response.EnsureSuccessStatusCode();
+                Stream WordInfoStream = await Response.Content.ReadAsStreamAsync();
                 string WordInfoString = new StreamReader(WordInfoStream).ReadToEnd();
 
                 // Serialize it to DictionaryWord to cache it so that we don't have to download it again
