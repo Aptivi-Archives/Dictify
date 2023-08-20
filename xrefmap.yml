@@ -14,11 +14,14 @@ references:
   fullName: Dictify.Manager.DictionaryManager
   nameWithType: DictionaryManager
 - uid: Dictify.Manager.DictionaryManager.GetWordInfo(System.String)
-  name: GetWordInfo(String)
+  name: GetWordInfo(string)
   href: api/Dictify.Manager.DictionaryManager.html#Dictify_Manager_DictionaryManager_GetWordInfo_System_String_
   commentId: M:Dictify.Manager.DictionaryManager.GetWordInfo(System.String)
-  fullName: Dictify.Manager.DictionaryManager.GetWordInfo(System.String)
-  nameWithType: DictionaryManager.GetWordInfo(String)
+  name.vb: GetWordInfo(String)
+  fullName: Dictify.Manager.DictionaryManager.GetWordInfo(string)
+  fullName.vb: Dictify.Manager.DictionaryManager.GetWordInfo(String)
+  nameWithType: DictionaryManager.GetWordInfo(string)
+  nameWithType.vb: DictionaryManager.GetWordInfo(String)
 - uid: Dictify.Manager.DictionaryManager.GetWordInfo*
   name: GetWordInfo
   href: api/Dictify.Manager.DictionaryManager.html#Dictify_Manager_DictionaryManager_GetWordInfo_
@@ -27,11 +30,14 @@ references:
   fullName: Dictify.Manager.DictionaryManager.GetWordInfo
   nameWithType: DictionaryManager.GetWordInfo
 - uid: Dictify.Manager.DictionaryManager.GetWordInfoAsync(System.String)
-  name: GetWordInfoAsync(String)
+  name: GetWordInfoAsync(string)
   href: api/Dictify.Manager.DictionaryManager.html#Dictify_Manager_DictionaryManager_GetWordInfoAsync_System_String_
   commentId: M:Dictify.Manager.DictionaryManager.GetWordInfoAsync(System.String)
-  fullName: Dictify.Manager.DictionaryManager.GetWordInfoAsync(System.String)
-  nameWithType: DictionaryManager.GetWordInfoAsync(String)
+  name.vb: GetWordInfoAsync(String)
+  fullName: Dictify.Manager.DictionaryManager.GetWordInfoAsync(string)
+  fullName.vb: Dictify.Manager.DictionaryManager.GetWordInfoAsync(String)
+  nameWithType: DictionaryManager.GetWordInfoAsync(string)
+  nameWithType.vb: DictionaryManager.GetWordInfoAsync(String)
 - uid: Dictify.Manager.DictionaryManager.GetWordInfoAsync*
   name: GetWordInfoAsync
   href: api/Dictify.Manager.DictionaryManager.html#Dictify_Manager_DictionaryManager_GetWordInfoAsync_
@@ -283,19 +289,6 @@ references:
   isSpec: "True"
   fullName: Dictify.Models.DictionaryWord.Phonetic.Text
   nameWithType: DictionaryWord.Phonetic.Text
-- uid: Dictify.Models.DictionaryWord.Phonetics
-  name: Phonetics
-  href: api/Dictify.Models.DictionaryWord.html#Dictify_Models_DictionaryWord_Phonetics
-  commentId: P:Dictify.Models.DictionaryWord.Phonetics
-  fullName: Dictify.Models.DictionaryWord.Phonetics
-  nameWithType: DictionaryWord.Phonetics
-- uid: Dictify.Models.DictionaryWord.Phonetics*
-  name: Phonetics
-  href: api/Dictify.Models.DictionaryWord.html#Dictify_Models_DictionaryWord_Phonetics_
-  commentId: Overload:Dictify.Models.DictionaryWord.Phonetics
-  isSpec: "True"
-  fullName: Dictify.Models.DictionaryWord.Phonetics
-  nameWithType: DictionaryWord.Phonetics
 - uid: Dictify.Models.DictionaryWord.PhoneticWord
   name: PhoneticWord
   href: api/Dictify.Models.DictionaryWord.html#Dictify_Models_DictionaryWord_PhoneticWord
@@ -309,6 +302,19 @@ references:
   isSpec: "True"
   fullName: Dictify.Models.DictionaryWord.PhoneticWord
   nameWithType: DictionaryWord.PhoneticWord
+- uid: Dictify.Models.DictionaryWord.Phonetics
+  name: Phonetics
+  href: api/Dictify.Models.DictionaryWord.html#Dictify_Models_DictionaryWord_Phonetics
+  commentId: P:Dictify.Models.DictionaryWord.Phonetics
+  fullName: Dictify.Models.DictionaryWord.Phonetics
+  nameWithType: DictionaryWord.Phonetics
+- uid: Dictify.Models.DictionaryWord.Phonetics*
+  name: Phonetics
+  href: api/Dictify.Models.DictionaryWord.html#Dictify_Models_DictionaryWord_Phonetics_
+  commentId: Overload:Dictify.Models.DictionaryWord.Phonetics
+  isSpec: "True"
+  fullName: Dictify.Models.DictionaryWord.Phonetics
+  nameWithType: DictionaryWord.Phonetics
 - uid: Dictify.Models.DictionaryWord.SourceUrls
   name: SourceUrls
   href: api/Dictify.Models.DictionaryWord.html#Dictify_Models_DictionaryWord_SourceUrls
