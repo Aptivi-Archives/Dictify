@@ -22,9 +22,11 @@ jobs:
       with:
         dotnet-version: '6.0.x'
     - name: Solution Compilation
-      run: dotnet build --configuration Debug "Dictify.sln"
+      run: dotnet build --configuration Debug
+    - name: Testing
+      run: dotnet test --configuration Debug
     - uses: actions/upload-artifact@v3
-      if: success()
+      if: success() || failure()
       with:
         name: dt-build
         path: "Dictify/bin/Debug/"
