@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>OfficialAppIcon-Dictify.ico</ApplicationIcon>
     <LangVersion>8.0</LangVersion>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\aptivi_snk.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
