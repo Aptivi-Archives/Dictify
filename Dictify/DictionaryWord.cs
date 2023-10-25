@@ -48,13 +48,13 @@ namespace Dictify.Models
             /// List of synonyms based on the definition
             /// </summary>
             [JsonProperty("synonyms")]
-            public List<string> Synonyms { get; set; }
+            public string[] Synonyms { get; set; }
 
             /// <summary>
             /// List of antonyms based on the definition
             /// </summary>
             [JsonProperty("antonyms")]
-            public List<string> Antonyms { get; set; }
+            public string[] Antonyms { get; set; }
 
             /// <summary>
             /// Example in sentence
@@ -96,19 +96,19 @@ namespace Dictify.Models
             /// List of word definitions. Words usually come with one or more definitions.
             /// </summary>
             [JsonProperty("definitions")]
-            public List<DefinitionType> Definitions { get; set; }
+            public DefinitionType[] Definitions { get; set; }
 
             /// <summary>
             /// List of synonyms based on the word meaning
             /// </summary>
             [JsonProperty("synonyms")]
-            public List<string> Synonyms { get; set; }
+            public string[] Synonyms { get; set; }
 
             /// <summary>
             /// List of antonyms based on the word meaning
             /// </summary>
             [JsonProperty("antonyms")]
-            public List<string> Antonyms { get; set; }
+            public string[] Antonyms { get; set; }
         }
 
         /// <summary>
@@ -157,13 +157,13 @@ namespace Dictify.Models
         /// The alternative phonetic representations
         /// </summary>
         [JsonProperty("phonetics")]
-        public List<Phonetic> Phonetics { get; set; }
+        public Phonetic[] Phonetics { get; set; }
 
         /// <summary>
         /// Word meanings
         /// </summary>
         [JsonProperty("meanings")]
-        public List<Meaning> Meanings { get; set; }
+        public Meaning[] Meanings { get; set; }
 
         /// <summary>
         /// License information
@@ -175,6 +175,6 @@ namespace Dictify.Models
         /// List of where we got the word information from
         /// </summary>
         [JsonProperty("sourceUrls")]
-        public List<string> SourceUrls { get; set; }
+        public string[] SourceUrls { get; set; }
     }
 }
