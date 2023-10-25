@@ -54,7 +54,7 @@ namespace Dictify.Models
             /// List of antonyms based on the definition
             /// </summary>
             [JsonProperty("antonyms")]
-            public List<object> Antonyms { get; set; }
+            public List<string> Antonyms { get; set; }
 
             /// <summary>
             /// Example in sentence
