@@ -6,7 +6,7 @@
     <SignAssembly>False</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeSymbols>True</IncludeSymbols>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <Authors>Aptivi</Authors>
     <Company>Aptivi.</Company>
     <Description>Dictionary API frontend</Description>
@@ -17,7 +17,7 @@
     <PackageTags>dictionary;api;free;csharp;visualbasic;word;meaning;definition</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageVersion>1.1.1</PackageVersion>
+    <PackageVersion>1.1.2</PackageVersion>
     <PackageIcon>OfficialAppIcon-Dictify-512.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <LangVersion>8.0</LangVersion>
